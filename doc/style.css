@@ -1,0 +1,550 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+header{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 50;
+    padding: 1pc;
+    width: 100vw;
+    
+}
+
+#header{
+    display: block;
+    background-color: black;
+    color: rgb(105, 25, 25);
+    
+}
+
+nav{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   gap: 20vw;
+}
+
+
+#home:hover{
+    display: block;
+    cursor: pointer;
+    color: aqua;
+
+}
+
+#About-us:hover{
+    display: block;
+    cursor: pointer;
+    color: aqua;
+}
+
+#Register:hover{
+    display: block;
+    cursor: pointer;
+    color: aqua;
+}
+
+#Login:hover{
+    display: block;
+    cursor: pointer;
+    color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(105, 25, 25);
+}
+
+
+h1{
+    display: block;
+    text-align: left;
+    justify-content: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 30px;
+
+
+}
+
+#ART{
+    display: inline-block;
+    color: rgb(129, 14, 100);
+    box-shadow: 1px 3px 5px rgb(204, 21, 134);
+}
+
+h1{
+    display: block;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes h1{
+    from{
+        opacity: 0.1;
+        margin-left: 400px;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+h3{
+    display: block;
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(63, 96, 136);
+    box-shadow: 1px 3px 5px brown;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h4{
+    display: block;
+    margin-bottom: 20px;
+}
+
+p{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#p{
+    display: block;
+    background-color: aliceblue;
+    box-shadow: 1px 2px 5px  black;
+    margin-bottom: 40px;
+    
+}
+
+
+#img-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 30px;
+
+}
+
+
+img{
+    display: block;
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 5px 10px black;
+
+}
+
+
+
+h4{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#form-container{
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+fieldset{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 25%;
+    height: 600px;
+    margin-left: 35%;
+    margin-bottom: 70px;
+}
+
+#field{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    margin-bottom: 70px;
+}
+
+.logp{
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+form{
+    display: block;
+    
+
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+
+
+}
+
+#all{
+  color: blueviolet;
+}
+
+input{
+    display: block;
+    padding: 6px;
+    font-size: 15px;
+    background: none;
+    border: none;
+    background-color: rgb(152, 201, 182);
+    border-radius: 10px;
+    outline: none;
+}
+
+.ip:hover{
+    display: block;
+    border-color: rgb(2, 65, 124);
+    cursor: pointer;
+
+}
+
+button{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    background-color: rgb(112, 155, 194);
+}
+
+
+#btn:hover{
+    display: block;
+    background-color: rgb(6, 99, 105);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1000px){
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    body{
+        display: block;
+        width: 100vw;
+        height: 500vw;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        position: fixed;
+        z-index: 50vw;
+    }
+
+    #header{
+        display: block;
+        background-color: black;
+        color: rgb(109, 27, 27);
+        width: 100vw;
+    }
+
+    nav{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 10vw;
+        font-size: small;
+    }
+
+    h1{
+        display: block;
+        font-size: 2pc;
+        text-align: center;
+        justify-content: center;
+        animation-name: h1;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        
+    
+    }
+
+    
+@keyframes h1 {
+    from{
+        opacity: 0.1;
+        border: 3vw;
+    }
+
+    to{
+        opacity: 1;
+    }
+    
+}
+
+h3{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    /*font-size: 4vw;*/
+    margin-top: 1vw;
+}
+
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#p1{
+    display: flex;
+    animation-name: p1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    /*animation-iteration-count: infinite;*/
+
+}
+@keyframes  p1 {
+    from{
+        opacity: 0.1;
+        margin-left: 60px;
+        transition: ease-in;
+    }to{
+        opacity: 1;
+    }
+}
+
+#p2{
+    display: flex;
+        animation-name: p2;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        /*animation-iteration-count: infinite;*/
+}
+@keyframes p2 {
+    from {
+        opacity: 0.1;
+        border: 25px;
+        transition: ease-in;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#p3{
+    display: flex;
+        animation-name: p3;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        /*animation-iteration-count: infinite;*/
+}
+@keyframes p3 {
+    from {
+        opacity: 0.1;
+        transition: ease-in;
+        border: 25px;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+#img-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 7vw;
+    margin-bottom: 9vw;
+    
+} 
+
+ 
+img{
+    display: flex;
+    width: 20vw;
+    height: 15vw;
+
+}
+
+
+/*#mar{*/
+    /*display: flex;*/
+    /*animation-name: mar;*/
+    /*animation-duration: 1s;*/
+    /*animation-timing-function: ease-out;*/
+    /*animation-iteration-count: inherit;*/
+/*}*/
+/*@keyframes mar {*/
+    /*from{*/
+        /*opacity: 0.1;*/
+    /*}*/
+    
+    /*to{*/
+        /*opacity: 1;*/
+    /*}*/
+/*}*/
+
+h4{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    /*font-size: 3vw;*/
+
+
+}
+
+#form-container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 12vw;
+}
+
+fieldset{
+    display: flex;
+    width: 60vw;
+    max-height: 99vw;
+    margin-left: 20vw;
+    text-align: center;
+    justify-content: center;
+}
+
+form{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+label{
+    display: block;
+    margin-top: 1vw;
+    font-size: 3vw;
+}
+
+#all{
+    color: aqua;
+}
+
+input{
+    display: block;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: bold;
+    padding-left: 10px;
+    
+    border-radius: 5vw;
+    border: none;
+    background-color: rgb(51, 98, 98);
+}
+
+.ip:hover{
+    display: block;
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 2vw;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2vw;
+    border: none;
+    outline: none;
+    
+    
+    background-color: rgb(208, 231, 252);
+}
+
+#btn:hover{
+    display: block;
+    background: none;
+    outline: none;
+    background-color: rgb(130, 179, 131);
+    cursor: pointer;
+    border: none;
+}
+
+#btn-login:hover{
+    display: block;
+        background: none;
+        outline: none;
+        background-color: rgb(130, 179, 131);
+        cursor: pointer;
+        border: none;
+}
+
+#form-container2{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10vw;
+}
+
+form{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+#field{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-height: 71vw;
+}
+
+
+}
+
+
+
+
